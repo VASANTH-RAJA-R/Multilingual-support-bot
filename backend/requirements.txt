@@ -1,0 +1,14 @@
+flask
+flask-cors
+openai
+pymongo
+psycopg2-binary
+
+⚡ How to Run Locally
+cd backend
+pip install -r requirements.txt
+export OPENAI_API_KEY="your_api_key_here"   # Linux/Mac
+setx OPENAI_API_KEY "your_api_key_here"     # Windows
+python app.py
+
+Backend will run at http://localhost:5000
