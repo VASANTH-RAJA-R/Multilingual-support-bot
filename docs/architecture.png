@@ -1,0 +1,11 @@
+User (Text / Voice)
+        ↓
+    Whisper (STT)
+        ↓
+      GPT-4
+        ↓
+   Flask Backend
+        ↓
+MongoDB / PostgreSQL
+        ↓
+ React Frontend (Chat UI)
